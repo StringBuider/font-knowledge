@@ -1,0 +1,25 @@
+{
+  "name": "front-konwledge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@antv/g6": "^4.6.4",
+    "moment": "^2.29.1",
+    "vuepress": "^1.9.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run docs:dev",
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
