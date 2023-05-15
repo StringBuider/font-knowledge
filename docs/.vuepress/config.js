@@ -3,7 +3,7 @@ const { resolve } = require('path')
 module.exports = {
     title: '小张的共享文档',
     description: '🤔你有什么想说？写进来吧！😎',
-    base: '/',
+    base: './',
     port: 8099,
     locales: {
         '/': {
